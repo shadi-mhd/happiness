@@ -1,23 +1,20 @@
-# 🌍 Predicting World Happiness
+# World Happiness Prediction
 
-This project uses the **World Happiness Report** dataset to predict and explain happiness scores across countries.
+This project aims to predict and explain happiness scores using the World Happiness Report dataset.
 
-## Problem
-Which factors (GDP, health, freedom, social support, etc.) best explain happiness, and how accurately can we predict happiness scores?
+## Data Source
 
-## Workflow
-1. Data Cleaning & Exploration
-2. Baseline Model: Linear Regression
-3. Advanced Model: Random Forest
-4. Feature Importance Analysis
-5. Insights & Conclusions
+The dataset is sourced from [shadi-mhd/happiness on GitHub](https://github.com/shadi-mhd/happiness/blob/data/world_happiness.csv).
 
-## Results
-- Random Forest achieved R² = 0.85
-- **Top predictors**: Social Support, GDP per Capita, Healthy Life Expectancy
-- **Weak predictors**: Generosity, Corruption Perceptions
+## Project Structure
 
-## Future Work
-- Try XGBoost and SHAP values for interpretability
-- Build a Streamlit dashboard for interactive exploration
+- `data/`: Contains the raw dataset.
+- `notebooks/`: Jupyter notebooks for analysis and modeling.
+- `src/`: Python scripts for data preprocessing, feature engineering, and model training.
+- `reports/`: Summary and insights from the analysis.
+- `requirements.txt`: Python dependencies.
 
+## Installation
+
+```bash
+pip install -r requirements.txt
